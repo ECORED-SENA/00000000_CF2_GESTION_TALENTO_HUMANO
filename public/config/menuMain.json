@@ -1,0 +1,30 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al inicio",
+    "path": "index.html"
+  },  
+  { 
+    "id": 1,
+    "icon": "fa fa-play-circle",
+    "slug": "tema-1",
+    "title": "1. Planes y programas como herramientas para la gestión del talento humano",
+    "breadcrumb": ["Inicio","Introducción"],
+    "path": "pages/tema-1.html",    
+    "submenu": [
+      {
+        "icon": "fa fa-file-text",
+        "slug": "tema-1",
+        "title": "1.1 Capacitación y desarrollo",
+        "anchor": "tema-1_1"
+      },   
+      {
+        "icon": "fa fa-file-text",
+        "slug": "tema-1",
+        "title": "1.2 Reconocimientos",
+        "anchor": "tema-1_2"
+      }
+    ]   
+  }
+]
